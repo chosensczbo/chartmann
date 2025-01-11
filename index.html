@@ -20,26 +20,26 @@
     <meta property="og:description" content="Ofrecemos una experiencia más moderna, dinámica y exitosa en el sector inmobilario de Bolivia" />
     <meta property="og:url" content="https://christofferhartmann.com" />
     <meta property="og:site_name" content="Christoffer Hartmann" />
-    <meta property="og:image" content="https://christofferhartmann.com/web/view/img/web-nicolas-ortiz.png" />
+    <meta property="og:image" content="https://christofferhartmann.com/chartmann/view/img/web-nicolas-ortiz.png" />
     <meta property="og:image:width" content="640" />
     <meta property="og:image:height" content="640" />
 
     <!-- CSS -->
-    <link rel="stylesheet" href="web/view/css/main.css" />
-    <link rel="stylesheet" href="web/view/css/message.css" />
-    <link rel="stylesheet" href="web/view/css/animate.css" />
-    <link rel="stylesheet" href="web/view/css/flickity.css" />
-    <link rel="stylesheet" href="web/view/css/odometer-theme-default.css" />
-    <link rel="shortcut icon" type="image/x-icon" href="web/nicolas-ortiz.ico" />
-    <link rel="apple-touch-icon" sizes="180x180" href="web/nicolas-ortiz.png" />
+    <link rel="stylesheet" href="chartmann/view/css/main.css" />
+    <link rel="stylesheet" href="chartmann/view/css/message.css" />
+    <link rel="stylesheet" href="chartmann/view/css/animate.css" />
+    <link rel="stylesheet" href="chartmann/view/css/flickity.css" />
+    <link rel="stylesheet" href="chartmann/view/css/odometer-theme-default.css" />
+    <link rel="shortcut icon" type="image/x-icon" href="chartmann/nicolas-ortiz.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="chartmann/nicolas-ortiz.png" />
 
     <!-- JavaScript -->
-    <script src="web/view/plugin/jquery-2.0.3.min.js"></script>
-    <script src="web/view/plugin/flickity.pkgd.js"></script>
-    <script src="web/view/plugin/core.js"></script>
-    <script src="web/view/plugin/dea.js"></script>
-    <script src="web/view/plugin/scroll.js"></script>
-    <script src="web/view/plugin/odometer.js"></script>
+    <script src="chartmann/view/plugin/jquery-2.0.3.min.js"></script>
+    <script src="chartmann/view/plugin/flickity.pkgd.js"></script>
+    <script src="chartmann/view/plugin/core.js"></script>
+    <script src="chartmann/view/plugin/dea.js"></script>
+    <script src="chartmann/view/plugin/scroll.js"></script>
+    <script src="chartmann/view/plugin/odometer.js"></script>
     <script src="upup.sw.js"></script>
     <script src="upup.js"></script>
     <script src="offline.js"></script>
@@ -58,7 +58,7 @@
             },
             "url": "https://christofferhartmann.com",
             "telephone": "78000671",
-            "logo": "https://christofferhartmann.com/web/view/img/web-nicolas-ortiz.png",
+            "logo": "https://christofferhartmann.com/chartmann/view/img/web-nicolas-ortiz.png",
             "description": "Ofrecemos una experiencia más moderna, dinámica y exitosa en el sector inmobilario de Bolivia",
             "sameAs": [
                 "https://www.facebook.com/remaxchristofferhartmann",
@@ -163,14 +163,14 @@
 
                 $.ajax({
                     type: "post",
-                    url: "web/control/x-fn.php",
+                    url: "chartmann/control/x-fn.php",
                     data: "fn=SaveV&data=" + DEA.encode(ukv),
                     success: function(res) {}
                 })
             } else {
                 $.ajax({
                     type: "post",
-                    url: "web/control/x-fn.php",
+                    url: "chartmann/control/x-fn.php",
                     data: "fn=SaveUKV",
                     success: function(res) {
                         localStorage.setItem('nic_ukv', res);
@@ -252,21 +252,21 @@
             <div class='gallery-cell '>
                 <div class='wbt-slider'>
                     <video id='video-1' data-title='Christoffer Hartmann' loop='true'>
-              		<source src='web/view/resources/media/v-20240920171658.mp4' type='video/mp4'/>                		
+              		<source src='chartmann/view/resources/media/v-20240920171658.mp4' type='video/mp4'/>                		
                	</video>
                 </div>
             </div>
             <div class='gallery-cell '>
-                <div class='wbt-slider' style='background:url(web/view/resources/img/img-20241127190311.jpg) no-repeat center; background-size:cover'></div>
+                <div class='wbt-slider' style='background:url(chartmann/view/resources/img/img-20241127190311.jpg) no-repeat center; background-size:cover'></div>
             </div>
             <div class='gallery-cell '>
-                <div class='wbt-slider' style='background:url(web/view/resources/img/img-20241127191547.jpg) no-repeat center; background-size:cover'></div>
+                <div class='wbt-slider' style='background:url(chartmann/view/resources/img/img-20241127191547.jpg) no-repeat center; background-size:cover'></div>
             </div>
             <div class='gallery-cell '>
-                <div class='wbt-slider' style='background:url(web/view/resources/img/img-20241213130955.jpg) no-repeat center; background-size:cover'></div>
+                <div class='wbt-slider' style='background:url(chartmann/view/resources/img/img-20241213130955.jpg) no-repeat center; background-size:cover'></div>
             </div>
             <div class='gallery-cell '>
-                <div class='wbt-slider' style='background:url(web/view/resources/img/img-20241213133336.jpg) no-repeat center; background-size:cover'></div>
+                <div class='wbt-slider' style='background:url(chartmann/view/resources/img/img-20241213133336.jpg) no-repeat center; background-size:cover'></div>
             </div>
         </div>
 
@@ -285,7 +285,7 @@
                             <div class='box-property'>
                                 <div class='property-type'>En Venta</div>
                                 <a href='https://christofferhartmann.remax.bo/es-bo/propiedades/departamento/en-venta/santa-cruz-de-la-sierra/macororo-1617/125001005-1345 ' target='_blank' rel='noopener'>
-                                    <div class='property-pic' style='background:url(web/view/img/inmuebles/img-20240710114951.jpg) no-repeat center; background-size:100%'>
+                                    <div class='property-pic' style='background:url(chartmann/view/img/inmuebles/img-20240710114951.jpg) no-repeat center; background-size:100%'>
                                         <div class='property-ribbon'>Proyecto</div>
 
                                     </div>
@@ -299,7 +299,7 @@
                             <div class='box-property'>
                                 <div class='property-type'>En Venta</div>
                                 <a href='https://www.facebook.com/reel/3427225567575277?locale=es_LA ' target='_blank' rel='noopener'>
-                                    <div class='property-pic' style='background:url(web/view/img/inmuebles/img-20240710121602.jpg) no-repeat center; background-size:100%'>
+                                    <div class='property-pic' style='background:url(chartmann/view/img/inmuebles/img-20240710121602.jpg) no-repeat center; background-size:100%'>
                                         <div class='property-ribbon'>Proyecto</div>
 
                                     </div>
@@ -313,7 +313,7 @@
                             <div class='box-property'>
                                 <div class='property-type'>En Venta</div>
                                 <a href='https://www.facebook.com/photo/?fbid=1013290694138152&set=a.638661464934412&locale=es_LA' target='_blank' rel='noopener'>
-                                    <div class='property-pic' style='background:url(web/view/img/inmuebles/img-20240710122516.jpg) no-repeat center; background-size:100%'>
+                                    <div class='property-pic' style='background:url(chartmann/view/img/inmuebles/img-20240710122516.jpg) no-repeat center; background-size:100%'>
                                         <div class='property-ribbon'>Proyecto</div>
 
                                     </div>
@@ -327,7 +327,7 @@
                             <div class='box-property'>
                                 <div class='property-type'>En Venta</div>
                                 <a href='https://www.facebook.com/remaxchristofferhartmann/posts/pfbid0Do9KWgqv711CvYd7X1bqeE3KEMKF5TCnyo8pzu8jgjXfYGYQrgppbjm35zGEoVPMl?locale=es_LA' target='_blank' rel='noopener'>
-                                    <div class='property-pic' style='background:url(web/view/img/inmuebles/img-20240710161011.jpg) no-repeat center; background-size:100%'>
+                                    <div class='property-pic' style='background:url(chartmann/view/img/inmuebles/img-20240710161011.jpg) no-repeat center; background-size:100%'>
                                         <div class='property-ribbon'>Proyecto</div>
 
                                     </div>
@@ -349,7 +349,7 @@
                             <div class='box-property'>
                                 <div class='property-type'>En Venta</div>
                                 <a href='https://christofferhartmann.remax.bo/es-bo/propiedades/departamento/en-venta/santa-cruz-de-la-sierra/125001005-1359' target='_blank' rel='noopener'>
-                                    <div class='property-pic' style='background:url(web/view/img/inmuebles/img-20240703115142.jpg) no-repeat center; background-size:100%'>
+                                    <div class='property-pic' style='background:url(chartmann/view/img/inmuebles/img-20240703115142.jpg) no-repeat center; background-size:100%'>
                                         <div class='property-ribbon'>Departamento</div>
                                         <div class='property-state'>Vendido</div>
                                     </div>
@@ -363,7 +363,7 @@
                             <div class='box-property'>
                                 <div class='property-type'>En Venta</div>
                                 <a href='https://christofferhartmann.remax.bo/es-bo/propiedades/casa-de-calidad/en-venta/santa-cruz-de-la-sierra/125001005-1344' target='_blank' rel='noopener'>
-                                    <div class='property-pic' style='background:url(web/view/img/inmuebles/img-20240703124546.jpg) no-repeat center; background-size:100%'>
+                                    <div class='property-pic' style='background:url(chartmann/view/img/inmuebles/img-20240703124546.jpg) no-repeat center; background-size:100%'>
                                         <div class='property-ribbon'>Casa</div>
 
                                     </div>
@@ -377,7 +377,7 @@
                             <div class='box-property'>
                                 <div class='property-type'>Alquiler</div>
                                 <a href='https://christofferhartmann.remax.bo/es-bo/propiedades/local-comercial/en-alquiler/porongo/urubo/125001005-954' target='_blank' rel='noopener'>
-                                    <div class='property-pic' style='background:url(web/view/img/inmuebles/img-20240917123157.jpg) no-repeat center; background-size:100%'>
+                                    <div class='property-pic' style='background:url(chartmann/view/img/inmuebles/img-20240917123157.jpg) no-repeat center; background-size:100%'>
                                         <div class='property-ribbon'>Propiedad</div>
 
                                     </div>
@@ -391,7 +391,7 @@
                             <div class='box-property'>
                                 <div class='property-type'>En Venta</div>
                                 <a href='https://christofferhartmann.remax.bo/es-bo/propiedades/departamento/en-venta/santa-cruz-de-la-sierra/125001005-1372' target='_blank' rel='noopener'>
-                                    <div class='property-pic' style='background:url(web/view/img/inmuebles/img-20240917131238.jpg) no-repeat center; background-size:100%'>
+                                    <div class='property-pic' style='background:url(chartmann/view/img/inmuebles/img-20240917131238.jpg) no-repeat center; background-size:100%'>
                                         <div class='property-ribbon'>Departamento</div>
 
                                     </div>
@@ -405,7 +405,7 @@
                             <div class='box-property'>
                                 <div class='property-type'>En Venta</div>
                                 <a href='https://christofferhartmann.remax.bo/es-bo/propiedades/departamento/en-venta/santa-cruz-de-la-sierra/125001005-1380' target='_blank' rel='noopener'>
-                                    <div class='property-pic' style='background:url(web/view/img/inmuebles/img-20240917172328.jpg) no-repeat center; background-size:100%'>
+                                    <div class='property-pic' style='background:url(chartmann/view/img/inmuebles/img-20240917172328.jpg) no-repeat center; background-size:100%'>
                                         <div class='property-ribbon'>Departamento</div>
 
                                     </div>
@@ -419,7 +419,7 @@
                             <div class='box-property'>
                                 <div class='property-type'>Alquiler</div>
                                 <a href='https://christofferhartmann.remax.bo/es-bo/propiedades/oficina/en-alquiler/santa-cruz-de-la-sierra/125001005-1373' target='_blank' rel='noopener'>
-                                    <div class='property-pic' style='background:url(web/view/img/inmuebles/img-20240917181516.jpg) no-repeat center; background-size:100%'>
+                                    <div class='property-pic' style='background:url(chartmann/view/img/inmuebles/img-20240917181516.jpg) no-repeat center; background-size:100%'>
                                         <div class='property-ribbon'>Oficina</div>
 
                                     </div>
@@ -433,7 +433,7 @@
                             <div class='box-property'>
                                 <div class='property-type'>En Venta</div>
                                 <a href='https://christofferhartmann.remax.bo/es-bo/propiedades/terreno/en-venta/santa-cruz-de-la-sierra/125001005-1377' target='_blank' rel='noopener'>
-                                    <div class='property-pic' style='background:url(web/view/img/inmuebles/img-20240917183840.jpg) no-repeat center; background-size:100%'>
+                                    <div class='property-pic' style='background:url(chartmann/view/img/inmuebles/img-20240917183840.jpg) no-repeat center; background-size:100%'>
                                         <div class='property-ribbon'>Terreno</div>
 
                                     </div>
@@ -447,7 +447,7 @@
                             <div class='box-property'>
                                 <div class='property-type'>En Venta</div>
                                 <a href='https://christofferhartmann.remax.bo/es-bo/propiedades/terreno/en-venta/santa-cruz-de-la-sierra/125001005-1376' target='_blank' rel='noopener'>
-                                    <div class='property-pic' style='background:url(web/view/img/inmuebles/img-20240917184234.jpg) no-repeat center; background-size:100%'>
+                                    <div class='property-pic' style='background:url(chartmann/view/img/inmuebles/img-20240917184234.jpg) no-repeat center; background-size:100%'>
                                         <div class='property-ribbon'>Terreno</div>
 
                                     </div>
@@ -461,7 +461,7 @@
                             <div class='box-property'>
                                 <div class='property-type'>En Venta</div>
                                 <a href='https://christofferhartmann.remax.bo/es-bo/propiedades/terreno/en-venta/santa-cruz-de-la-sierra/125001005-1379' target='_blank' rel='noopener'>
-                                    <div class='property-pic' style='background:url(web/view/img/inmuebles/img-20240917185106.jpg) no-repeat center; background-size:100%'>
+                                    <div class='property-pic' style='background:url(chartmann/view/img/inmuebles/img-20240917185106.jpg) no-repeat center; background-size:100%'>
                                         <div class='property-ribbon'>Terreno</div>
 
                                     </div>
@@ -475,7 +475,7 @@
                             <div class='box-property'>
                                 <div class='property-type'>En Venta</div>
                                 <a href='https://christofferhartmann.remax.bo/es-bo/propiedades/terreno/en-venta/porongo/125001005-1375' target='_blank' rel='noopener'>
-                                    <div class='property-pic' style='background:url(web/view/img/inmuebles/img-20240930170753.jpg) no-repeat center; background-size:100%'>
+                                    <div class='property-pic' style='background:url(chartmann/view/img/inmuebles/img-20240930170753.jpg) no-repeat center; background-size:100%'>
                                         <div class='property-ribbon'>Terreno</div>
 
                                     </div>
@@ -489,7 +489,7 @@
                             <div class='box-property'>
                                 <div class='property-type'>En Venta</div>
                                 <a href='https://www.facebook.com/remaxchristofferhartmann/posts/pfbid02FLJdQEtiu3Hzq3xVQDRnwogqgqed5ZLteTrXCgJcJCRVhcYkrpnNqS9cWAxm2oDhl' target='_blank' rel='noopener'>
-                                    <div class='property-pic' style='background:url(web/view/img/inmuebles/img-20240930171903.jpg) no-repeat center; background-size:100%'>
+                                    <div class='property-pic' style='background:url(chartmann/view/img/inmuebles/img-20240930171903.jpg) no-repeat center; background-size:100%'>
                                         <div class='property-ribbon'>Departamento</div>
 
                                     </div>
@@ -503,7 +503,7 @@
                             <div class='box-property'>
                                 <div class='property-type'>En Venta</div>
                                 <a href='https://www.instagram.com/p/DAGmE5GPv8d/' target='_blank' rel='noopener'>
-                                    <div class='property-pic' style='background:url(web/view/img/inmuebles/img-20240930172644.jpg) no-repeat center; background-size:100%'>
+                                    <div class='property-pic' style='background:url(chartmann/view/img/inmuebles/img-20240930172644.jpg) no-repeat center; background-size:100%'>
                                         <div class='property-ribbon'>Departamento</div>
 
                                     </div>
@@ -517,7 +517,7 @@
                             <div class='box-property'>
                                 <div class='property-type'>En Venta</div>
                                 <a href='https://christofferhartmann.remax.bo/es-bo/propiedades/casa/en-venta/santa-cruz-de-la-sierra/125001328-5' target='_blank' rel='noopener'>
-                                    <div class='property-pic' style='background:url(web/view/img/inmuebles/img-20240930173553.jpg) no-repeat center; background-size:100%'>
+                                    <div class='property-pic' style='background:url(chartmann/view/img/inmuebles/img-20240930173553.jpg) no-repeat center; background-size:100%'>
                                         <div class='property-ribbon'>Casa</div>
 
                                     </div>
@@ -531,7 +531,7 @@
                             <div class='box-property'>
                                 <div class='property-type'>Alquiler</div>
                                 <a href='https://christofferhartmann.remax.bo/es-bo/propiedades/oficina/en-alquiler/santa-cruz-de-la-sierra/125001005-1384' target='_blank' rel='noopener'>
-                                    <div class='property-pic' style='background:url(web/view/img/inmuebles/img-20240930174506.jpg) no-repeat center; background-size:100%'>
+                                    <div class='property-pic' style='background:url(chartmann/view/img/inmuebles/img-20240930174506.jpg) no-repeat center; background-size:100%'>
                                         <div class='property-ribbon'>Local Comercial</div>
 
                                     </div>
@@ -545,7 +545,7 @@
                             <div class='box-property'>
                                 <div class='property-type'>En Venta</div>
                                 <a href='https://christofferhartmann.remax.bo/es-bo/propiedades/terreno/en-venta/santa-cruz-de-la-sierra/125001005-1378' target='_blank' rel='noopener'>
-                                    <div class='property-pic' style='background:url(web/view/img/inmuebles/img-20241003170215.jpg) no-repeat center; background-size:100%'>
+                                    <div class='property-pic' style='background:url(chartmann/view/img/inmuebles/img-20241003170215.jpg) no-repeat center; background-size:100%'>
                                         <div class='property-ribbon'>Terreno</div>
 
                                     </div>
@@ -559,7 +559,7 @@
                             <div class='box-property'>
                                 <div class='property-type'>Alquiler</div>
                                 <a href='https://christofferhartmann.remax.bo/default.aspx' target='_blank' rel='noopener'>
-                                    <div class='property-pic' style='background:url(web/view/img/inmuebles/img-20241009130117.jpg) no-repeat center; background-size:100%'>
+                                    <div class='property-pic' style='background:url(chartmann/view/img/inmuebles/img-20241009130117.jpg) no-repeat center; background-size:100%'>
                                         <div class='property-ribbon'>Casa</div>
                                         <div class='property-state'>Alquilado</div>
                                     </div>
@@ -573,7 +573,7 @@
                             <div class='box-property'>
                                 <div class='property-type'>En Venta</div>
                                 <a href='https://www.facebook.com/remaxchristofferhartmann/posts/pfbid0czTQzaH8hhq4uh9miCpPSkqJ3quh1iFfHd5pSZV5V2qzzE1CX8J5uhXYKQJfAE9Gl' target='_blank' rel='noopener'>
-                                    <div class='property-pic' style='background:url(web/view/img/inmuebles/img-20241028165626.jpg) no-repeat center; background-size:100%'>
+                                    <div class='property-pic' style='background:url(chartmann/view/img/inmuebles/img-20241028165626.jpg) no-repeat center; background-size:100%'>
                                         <div class='property-ribbon'>Departamento</div>
 
                                     </div>
@@ -587,7 +587,7 @@
                             <div class='box-property'>
                                 <div class='property-type'>En Venta</div>
                                 <a href='https://christofferhartmann.remax.bo/es-bo/propiedades/terreno-comercial/en-venta/santa-cruz-de-la-sierra/125001005-1322' target='_blank' rel='noopener'>
-                                    <div class='property-pic' style='background:url(web/view/img/inmuebles/img-20241106171414.jpg) no-repeat center; background-size:100%'>
+                                    <div class='property-pic' style='background:url(chartmann/view/img/inmuebles/img-20241106171414.jpg) no-repeat center; background-size:100%'>
                                         <div class='property-ribbon'>Terreno</div>
 
                                     </div>
@@ -601,7 +601,7 @@
                             <div class='box-property'>
                                 <div class='property-type'>En Venta</div>
                                 <a href='https://www.facebook.com/profile/100064372916201/search?q=palmetto&filters=eyJycF9jaHJvbm9fc29ydDowIjoie1wibmFtZVwiOlwiY2hyb25vc29ydFwiLFwiYXJnc1wiOlwiXCJ9In0%3D&locale=es_LA' target='_blank' rel='noopener'>
-                                    <div class='property-pic' style='background:url(web/view/img/inmuebles/img-20241111160557.jpg) no-repeat center; background-size:100%'>
+                                    <div class='property-pic' style='background:url(chartmann/view/img/inmuebles/img-20241111160557.jpg) no-repeat center; background-size:100%'>
                                         <div class='property-ribbon'>Departamento</div>
                                         <div class='property-state'>Vendido</div>
                                     </div>
@@ -615,7 +615,7 @@
                             <div class='box-property'>
                                 <div class='property-type'>En Venta</div>
                                 <a href='https://www.facebook.com/@JorgeEBerdecioRemax' target='_blank' rel='noopener'>
-                                    <div class='property-pic' style='background:url(web/view/img/inmuebles/img-20241120173455.jpg) no-repeat center; background-size:100%'>
+                                    <div class='property-pic' style='background:url(chartmann/view/img/inmuebles/img-20241120173455.jpg) no-repeat center; background-size:100%'>
                                         <div class='property-ribbon'>Casa</div>
                                         <div class='property-state'>Vendido</div>
                                     </div>
@@ -629,7 +629,7 @@
                             <div class='box-property'>
                                 <div class='property-type'>Alquiler</div>
                                 <a href='https://www.facebook.com/JorgeEBerdecioRemax' target='_blank' rel='noopener'>
-                                    <div class='property-pic' style='background:url(web/view/img/inmuebles/img-20241121111517.jpg) no-repeat center; background-size:100%'>
+                                    <div class='property-pic' style='background:url(chartmann/view/img/inmuebles/img-20241121111517.jpg) no-repeat center; background-size:100%'>
                                         <div class='property-ribbon'>Departamento</div>
                                         <div class='property-state'>Alquilado</div>
                                     </div>
@@ -643,7 +643,7 @@
                             <div class='box-property'>
                                 <div class='property-type'>Alquiler</div>
                                 <a href='https://www.facebook.com/remaxchristofferhartmann/posts/pfbid0FJ9tHcAomaVBQtddJgFxz1xWQriru8DoqMe1KK18zwFt1YEP5RYXUb7bS915NHntl' target='_blank' rel='noopener'>
-                                    <div class='property-pic' style='background:url(web/view/img/inmuebles/img-20241127183058.jpg) no-repeat center; background-size:100%'>
+                                    <div class='property-pic' style='background:url(chartmann/view/img/inmuebles/img-20241127183058.jpg) no-repeat center; background-size:100%'>
                                         <div class='property-ribbon'>Departamento</div>
 
                                     </div>
@@ -657,7 +657,7 @@
                             <div class='box-property'>
                                 <div class='property-type'>En Venta</div>
                                 <a href='https://christofferhartmann.remax.bo/es-bo/propiedades/terreno/en-venta/porongo/125001005-1361' target='_blank' rel='noopener'>
-                                    <div class='property-pic' style='background:url(web/view/img/inmuebles/img-20240710114244.jpg) no-repeat center; background-size:100%'>
+                                    <div class='property-pic' style='background:url(chartmann/view/img/inmuebles/img-20240710114244.jpg) no-repeat center; background-size:100%'>
                                         <div class='property-ribbon'>Terreno</div>
                                         <div class='property-state'>Vendido</div>
                                     </div>
@@ -671,7 +671,7 @@
                             <div class='box-property'>
                                 <div class='property-type'>Alquiler</div>
                                 <a href='https://www.facebook.com/JorgeEBerdecioRemax/posts/pfbid0C8LV4M1Babn565gb4yNkiB1yAEpmouNe3i6cfaYp3vXafrFqwMbvRWqRgk3KAZNDl' target='_blank' rel='noopener'>
-                                    <div class='property-pic' style='background:url(web/view/img/inmuebles/img-20241028165253.jpg) no-repeat center; background-size:100%'>
+                                    <div class='property-pic' style='background:url(chartmann/view/img/inmuebles/img-20241028165253.jpg) no-repeat center; background-size:100%'>
                                         <div class='property-ribbon'>Departamento</div>
 
                                     </div>
@@ -685,7 +685,7 @@
                             <div class='box-property'>
                                 <div class='property-type'>En Venta</div>
                                 <a href='https://www.facebook.com/remaxchristofferhartmann/posts/pfbid0n3mqgp97k2n8n5dMaBRoVjvigjcYY1CgU7ZZ9J5Dnb1PvmJUWg38LkEoY6msbGq3l' target='_blank' rel='noopener'>
-                                    <div class='property-pic' style='background:url(web/view/img/inmuebles/img-20241127182621.jpg) no-repeat center; background-size:100%'>
+                                    <div class='property-pic' style='background:url(chartmann/view/img/inmuebles/img-20241127182621.jpg) no-repeat center; background-size:100%'>
                                         <div class='property-ribbon'>Departamento</div>
 
                                     </div>
@@ -699,7 +699,7 @@
                             <div class='box-property'>
                                 <div class='property-type'>En Venta</div>
                                 <a href='https://www.instagram.com/p/DCUOYZZvT2_/?img_index=1' target='_blank' rel='noopener'>
-                                    <div class='property-pic' style='background:url(web/view/img/inmuebles/img-20241205190616.jpg) no-repeat center; background-size:100%'>
+                                    <div class='property-pic' style='background:url(chartmann/view/img/inmuebles/img-20241205190616.jpg) no-repeat center; background-size:100%'>
                                         <div class='property-ribbon'>Terreno</div>
                                         <div class='property-state'>Vendido</div>
                                     </div>
