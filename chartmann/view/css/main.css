@@ -218,10 +218,6 @@ body{
     display:none;
 }
 
-.menu-dock-top .logo{
-    background: url('../img/CHlogo512.png') no-repeat center;
-    background-size: 100%;
-}
 .menu-dock-top .btn-ws{
     background: #1b8c0c url('../img/ws.png') no-repeat;
     background-size: 30px;
