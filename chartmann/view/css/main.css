@@ -135,7 +135,7 @@ body{
     left:20px;
     width:250px;
     height:40px;
-    background: url('../img/CHlogo512.png') no-repeat center;
+    background: url('../img/CHlogo128.png') no-repeat center;
     background-size: 100%;
 }
 
@@ -219,7 +219,7 @@ body{
 }
 
 .menu-dock-top .logo{
-    background: url('../img/logo.png') no-repeat center;
+    background: url('../img/CHlogo128.png') no-repeat center;
     background-size: 100%;
 }
 .menu-dock-top .btn-ws{
@@ -1049,7 +1049,7 @@ a{
         left:20px;
         width:190px;
         height:30px;
-        background: url('../img/CHlogo512.png') no-repeat center;
+        background: url('../img/CHlogo128.png') no-repeat center;
         background-size: 100%;
     }
     .menu-dock-options{
@@ -1344,7 +1344,7 @@ a{
         left:10px;
         width:125px;
         height:20px;
-        background: url('../img/logo-bg.png') no-repeat center;
+        background: url('../img/CHlogo128.png') no-repeat center;
         background-size: 100%;
     }
     .btn-menu{
