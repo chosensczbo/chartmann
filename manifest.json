@@ -1,0 +1,26 @@
+{
+    "name": "Christoffer Hartmann - RE/MAX Bolivia",
+    "short_name": "Christoffer Hartmann",
+    "descrption": "Ofrecemos una experiencia m�s moderna, din�mica y exitosa en el sector inmobilario de Bolivia",
+    "icons": [
+        {
+            "src": "web/view/img/CHlogo128.png",
+            "sizes": "128x128",
+            "type": "image/png"
+        },
+        {
+            "src": "web/view/img/CHlogo256.png",
+            "sizes": "256x256",
+            "type": "image/png"
+        },
+        {
+            "src": "web/view/img/CHlogo512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ],
+    "start_url": "https://christofferhartmann.com",
+    "theme_color": "#080808",
+    "background_color": "#082e57",
+    "display": "standalone"
+}
