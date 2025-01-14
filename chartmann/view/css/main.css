@@ -82,7 +82,7 @@ body{
     left: 50%;
     transform: translate(-50%, -50%);
     
-    &::-webkit-media-controls {
+    video::-webkit-media-controls {
          display:none !important;
     }
 }
