@@ -131,11 +131,11 @@ body{
 
 .logo{
     position: absolute;
-    top:20px;
+    /**top:20px;**/
     left:20px;
     width:250px;
-    height:auto;
-    background: url('../img/logo-gb.png') no-repeat center;
+    height:80px;
+    background: url('../img/logo-gb-2.png') no-repeat center;
     background-size: contain;
 }
 
@@ -1041,10 +1041,10 @@ a{
 @media (max-width: 1840px) {
     .logo{
         position: absolute;
-        top:25px;
+        /**top:25px;**/
         left:20px;
         width:190px;
-        height:auto;
+        height:80px;
         background: url('../img/logo-gb.png') no-repeat center;
         background-size: contain;
     
@@ -1337,11 +1337,11 @@ a{
     }
     
     .logo{
-        top:30px;
+        /**top:30px;**/
         left:10px;
         width:125px;
-        height:auto;
-        background: url('../img/logo-gb.png') no-repeat center;
+        height:80px;
+        background: url('../img/logo-gb-2.png') no-repeat center;
         background-size: contain;
     }
     .btn-menu{
