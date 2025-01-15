@@ -4,17 +4,17 @@
     "descrption": "Ofrecemos una experiencia m�s moderna, din�mica y exitosa en el sector inmobilario de Bolivia",
     "icons": [
         {
-            "src": "web/view/img/CHlogo128.png",
+            "src": "chartmann/view/img/logo-gb.png",
             "sizes": "128x128",
             "type": "image/png"
         },
         {
-            "src": "web/view/img/CHlogo256.png",
+            "src": "web/view/img/logo-gb.png",
             "sizes": "256x256",
             "type": "image/png"
         },
         {
-            "src": "web/view/img/CHlogo512.png",
+            "src": "web/view/img/logo-gb.png",
             "sizes": "512x512",
             "type": "image/png"
         }
