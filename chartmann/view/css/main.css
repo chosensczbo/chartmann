@@ -1046,7 +1046,7 @@ a{
         width:190px;
         height:auto;
         background: url('../img/logo-gb.png') no-repeat center;
-        background-size: 100%;
+        background-size: contain;
     
     }
     .menu-dock-options{
@@ -1342,7 +1342,7 @@ a{
         width:125px;
         height:auto;
         background: url('../img/logo-gb.png') no-repeat center;
-        background-size: 100%;
+        background-size: contain;
     }
     .btn-menu{
        right:10px;
