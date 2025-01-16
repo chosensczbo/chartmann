@@ -218,6 +218,10 @@ body{
     display:none;
 }
 
+.menu-dock-top .logo{
+    background: url('../img/logo-gb-2.png') no-repeat center;
+    background-size: 100%;
+}
 .menu-dock-top .btn-ws{
     background: #1b8c0c url('../img/ws.png') no-repeat;
     background-size: 30px;
@@ -1045,7 +1049,7 @@ a{
         left:20px;
         width:190px;
         height:80px;
-        background: url('../img/logo-gb-2.png') no-repeat center;
+        background: url('../img/logo-gb.png') no-repeat center;
         background-size: contain;
     
     }
@@ -1341,7 +1345,7 @@ a{
         left:10px;
         width:125px;
         height:80px;
-        background: url('../img/logo-gb-2.png') no-repeat center;
+        background: url('../img/logo-gb.png') no-repeat center;
         background-size: contain;
     }
     .btn-menu{
